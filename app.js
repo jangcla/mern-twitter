@@ -4,13 +4,20 @@ const mongoose = require("mongoose")
 const db = require("./config/keys").mongoURI
 const users = require("./routes/api/tweets")
 const tweets = require("./routes/api/tweets")
+const User = require("./models/User")
 
 mongoose
     .connect(db, {useNewUrlParser: true})
     .then(() => console.log("Connected to mongoDB"))
     .catch(err => console.log(err));
 
-app.get("/", (rew, res) => {
+app.get("/", (req, res) => {
+    const user = new User({
+        handle: "jim",
+        email: "jim@jim.com",
+        password: "password"
+    })
+    user.save()
     res.send("Hello John!")
 })
 
