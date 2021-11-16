@@ -605,7 +605,16 @@ progress {
 .img-fluid {
   max-width: 100%;
   height: auto;
+  opacity: 0;
 }
+.img-fluid:hover {
+  max-width: 100%;
+  height: auto;
+  opacity: 1;
+  transition: 1s;
+}
+
+
 .img-fluid1 {
     max-width: 35%;
     height: auto;
@@ -1401,6 +1410,14 @@ progress {
   .col-lg-6 {
     flex: 0 0 auto;
     width: 50%;
+    background-image: url("https://github.com/jangcla/personal-site/blob/main/assets/img/bwP.jpg?raw=true");
+    background-size: 100% 100%;
+  }
+  .col-lg-61 {
+    flex: 0 0 auto;
+    width: 50%;
+    background-image: url("https://github.com/jangcla/personal-site/blob/main/assets/img/bwpaq.jpg?raw=true");
+    background-size: 100% 100%;
   }
 
   .col-lg-7 {
@@ -1624,6 +1641,8 @@ progress {
   .col-xl-8 {
     flex: 0 0 auto;
     width: 66.66666667%;
+    background-image: url("https://github.com/jangcla/personal-site/blob/main/assets/img/b&w.jpg?raw=true");
+    background-size: 100% 100%;
   }
 
   .col-xl-9 {
