@@ -606,6 +606,13 @@ progress {
   max-width: 100%;
   height: auto;
 }
+.img-fluid1 {
+    max-width: 35%;
+    height: auto;
+    border-radius: 50%;
+    /* margin-top: 0%; */
+    margin-bottom: 5%;
+}
 
 .img-thumbnail {
   padding: 0.25rem;
@@ -11697,4 +11704,8 @@ body {
 
 .footer {
   padding: 5rem 0;
+}
+
+a {
+  text-decoration: none;
 }
