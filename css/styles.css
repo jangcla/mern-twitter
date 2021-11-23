@@ -11739,4 +11739,6 @@ a {
     padding: 10px;
     border-radius: 5px;
     background-color: #64a19d;
+    transition: 1s;
+    color: white;
 }
