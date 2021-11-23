@@ -11728,3 +11728,15 @@ body {
 a {
   text-decoration: none;
 }
+
+#resume-download {
+    border: transparent;
+    padding: 10px;
+    border-radius: 5px;
+}
+#resume-download:hover {
+    border: transparent;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #64a19d;
+}
