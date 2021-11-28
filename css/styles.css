@@ -1410,13 +1410,13 @@ progress {
   .col-lg-6 {
     flex: 0 0 auto;
     width: 50%;
-    background-image: url("https://github.com/jangcla/personal-site/blob/main/assets/img/bwP.jpg?raw=true");
+    background-image: url("https://github.com/jangcla/portfolio/blob/main/assets/img/planeGif.gif?raw=true");
     background-size: 100% 100%;
   }
   .col-lg-61 {
     flex: 0 0 auto;
     width: 50%;
-    background-image: url("https://github.com/jangcla/personal-site/blob/main/assets/img/bwpaq.jpg?raw=true");
+    background-image: url("https://github.com/jangcla/portfolio/blob/main/assets/img/paqGif.gif?raw=true");
     background-size: 100% 100%;
   }
 
