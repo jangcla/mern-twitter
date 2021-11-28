@@ -605,12 +605,12 @@ progress {
 .img-fluid {
   max-width: 100%;
   height: auto;
-  opacity: 0;
+  opacity: 1;
 }
 .img-fluid:hover {
   max-width: 100%;
   height: auto;
-  opacity: 1;
+  opacity: 0;
   transition: 1s;
 }
 
@@ -1641,7 +1641,7 @@ progress {
   .col-xl-8 {
     flex: 0 0 auto;
     width: 66.66666667%;
-    background-image: url("https://github.com/jangcla/personal-site/blob/main/assets/img/b&w.jpg?raw=true");
+    background-image: url("https://github.com/jangcla/portfolio/blob/main/assets/img/newGif.gif?raw=true");
     background-size: 100% 100%;
   }
 
